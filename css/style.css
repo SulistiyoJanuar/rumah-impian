@@ -19,6 +19,15 @@ body {
   z-index: 999;
 }
 
+.nav-color {
+  background-color: #007245;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in 0.2s;
+}
+
 .nav-link {
   font-size: 1rem;
 }
@@ -70,11 +79,16 @@ body {
   z-index: 2;
 }
 
+.img-hero {
+  z-index: 2;
+}
+
 .hero-tagline p {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   color: #ffffff;
+  width: 70%;
 }
 
 .temukan-rumah {
@@ -89,8 +103,7 @@ body {
 
 /* Layanan Section */
 #layanan {
-  padding: 100px 0;
-  height: 100vh;
+  padding: 140px 0;
 }
 
 h2 {
@@ -195,7 +208,6 @@ h2 {
   width: 200px;
   color: #00985b;
   font-size: 1.1rem;
-  border-radius: 0 10px 0 10px;
 }
 
 .input-cari .button-primary {
@@ -213,7 +225,6 @@ h2 {
 
 .nav-tabs .nav-link {
   background: rgba(255, 255, 255, 0.6);
-  border-radius: 0 0 0 0;
   color: #000000;
   font-size: 1.1rem;
 }
@@ -233,6 +244,7 @@ h2 {
 /* Rekomendasi Section */
 #rekomendasi {
   padding: 100px 0;
+  padding-bottom: 0;
 }
 
 .card {

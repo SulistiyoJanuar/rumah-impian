@@ -13,6 +13,9 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -59,17 +62,10 @@
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-md-6 hero-tagline my-auto">
-            <h1>
-              Membantu Temukan <br />
-              Rumah Impian.
-            </h1>
-            <p>
-              <span class="fw-bold">Rumah Impian</span> hadir untuk temukan rumah terbaik <br />
-              untukmu, untuk di jual ataupun di sewa dengan sumber <br />
-              terpercaya.
-            </p>
-            <button class="temukan-rumah me-2">Temukan Rumah</button>
-            <a href="">
+            <h1>Membantu Temukan Rumah Impian.</h1>
+            <p><span class="fw-bold">Rumah Impian</span> hadir untuk temukan rumah terbaik untukmu, untuk di jual ataupun di sewa dengan sumber terpercaya.</p>
+            <a href="#rekomendasi"> <button class="temukan-rumah me-2" href="#rekomendasi" type="submit">Temukan Rumah</button></a>
+            <a href="#rekomendasi">
               <img src="img/arrow-button.png" alt="" />
             </a>
           </div>
@@ -241,7 +237,7 @@
         </div>
 
         <div class="row">
-          <div class="col-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-3 d-flex justify-content-evenly">
             <div class="card p-2" style="width: 22rem">
               <img src="img/rekomendasi1.png" alt="" />
               <div class="card-body">
@@ -268,7 +264,7 @@
             </div>
           </div>
 
-          <div class="col-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-3 d-flex justify-content-evenly">
             <div class="card p-2" style="width: 22rem">
               <img src="img/rumah2.png" alt="" />
               <div class="card-body">
@@ -295,7 +291,7 @@
             </div>
           </div>
 
-          <div class="col-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-3 d-flex justify-content-evenly">
             <div class="card p-2" style="width: 22rem">
               <img src="img/rumah3.png" alt="" />
               <div class="card-body">
@@ -322,7 +318,7 @@
             </div>
           </div>
 
-          <div class="col-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-3 d-flex justify-content-evenly">
             <div class="card p-2" style="width: 22rem">
               <img src="img/rumah4.png" alt="" />
               <div class="card-body">
@@ -349,7 +345,7 @@
             </div>
           </div>
 
-          <div class="col-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-3 d-flex justify-content-evenly">
             <div class="card p-2" style="width: 22rem">
               <img src="img/rumah5.png" alt="" />
               <div class="card-body">
@@ -376,7 +372,7 @@
             </div>
           </div>
 
-          <div class="col-4 mb-4">
+          <div class="col-lg-4 col-md-6 mb-3 d-flex justify-content-evenly">
             <div class="card p-2" style="width: 22rem">
               <img src="img/rumah6.png" alt="" />
               <div class="card-body">
@@ -411,15 +407,15 @@
     <section id="fitur">
       <div class="container">
         <div class="row">
-          <div class="col-10">
+          <div class="col-lg-9 col-md-12 mt-3">
             <h2>Fitur Rumah</h2>
           </div>
-          <div class="col-2">
+          <div class="col-lg-3 col-md-12 mt-3">
             <button class="button-fitur">Lihat Semua.. <img src="img/arrow-fitur.png" alt="" class="ms-2" /></button>
           </div>
         </div>
 
-        <div class="container position-relative mt-5">
+        <div class="container position-relative mt-4">
           <div class="row">
             <div class="col-12 d-flex justify-content-start overflow-hidden position-relative">
               <div class="card-fitur position-relative me-3">
@@ -485,16 +481,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h3 class="mb-3 mt-5">
-                Butuh Konsultasi..? <br />
-                Silahkan kontak kami <br />
-                Kami Siap Membantu
-              </h3>
+              <h3 class="mb-3 mt-">Butuh Konsultasi..? Silahkan kontak kami Kami Siap Membantu</h3>
 
               <div class="kontak">
                 <h6>Kontak</h6>
                 <div class="mb-3 d-flex align-items-center">
-                  <div><img src="img/City.png" alt="" /></div>
+                  <img src="img/City.png" alt="" />
                   <a href="">Jl. Pelajar Pejuang 123 Majalaya Bandung Indonesia</a>
                 </div>
                 <div class="mb-3"><img src="img/telp.png" alt="" /><a href="">022-6545-2041</a></div>
@@ -525,6 +517,9 @@
     </section>
 
     <!-- Akhir Kontak Section -->
+
+    <!-- My JS -->
+    <script src="js/script.js"></script>
 
     <!-- Bootstrap Js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

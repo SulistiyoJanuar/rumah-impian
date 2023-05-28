@@ -1,0 +1,120 @@
+@media screen and (max-width: 922px) {
+}
+
+@media screen and (max-width: 574px) {
+  .hero-tagline {
+    text-align: left;
+  }
+
+  .hero-tagline h1 {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+
+  .hero-tagline p {
+    text-align: left;
+  }
+
+  .temukan-rumah {
+    width: 50%;
+    height: 60px;
+  }
+
+  .img-hero {
+    width: 75%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .sub-title {
+    font-size: 16px;
+  }
+
+  .card-layanan {
+    margin: 15px 0;
+  }
+
+  #search h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  #search p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .input-cari {
+    height: 60px;
+  }
+
+  .input-cari .button-secondary {
+    width: 50%;
+    height: 60px;
+    font-size: 14px;
+  }
+
+  #search .nav-link {
+    width: 100%;
+    font-size: 80%;
+  }
+
+  .input-cari .button-primary {
+    width: 30%;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .card-layanan {
+    width: 100%;
+  }
+
+  #fitur {
+    margin-bottom: 100px;
+  }
+  .button-fitur {
+    width: 50%;
+    font-size: 90%;
+    height: 55px;
+  }
+
+  .card-contact {
+    width: 100%;
+    padding: 52px 48px;
+  }
+
+  #contact h3 {
+    font-size: 30px;
+    margin-top: -15%;
+  }
+
+  .kontak h6 {
+    font-size: 90%;
+    margin-top: -5%;
+  }
+
+  .kontak {
+    display: none;
+  }
+
+  .card-kontak {
+    padding: 48px 12px;
+    height: 100%;
+    margin-top: 5%;
+  }
+
+  .card-kontak .form-control {
+    height: 50%;
+    background: #c4c4c4;
+  }
+
+  .card-kontak .button-kontak {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
